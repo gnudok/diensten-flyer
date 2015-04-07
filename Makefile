@@ -4,7 +4,7 @@ viewpdf:
 	pdflatex flyer.tex; xpdf flyer.pdf
 
 viewhtml:
-	htlatex flyer.tex ; x-www-browser flyer.html
+	htlatex flyer.tex flyer -utf8; x-www-browser flyer.html
 
 prepare:
 	sudo apt-get install texlive xpdf 

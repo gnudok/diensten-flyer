@@ -122,5 +122,6 @@ table.multline, table.multline-star {width:100%;}
 td.gather {text-align:center; }
 table.gather {width:100%;}
 div.gather-star {text-align:center;}
+ div.figure img { width: 45%; display:inline;}
 /* end css.sty */
 

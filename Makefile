@@ -1,10 +1,10 @@
 export PATH:=/sbin:/usr/sbin:${PATH}
 
 viewpdf:
-	pdflatex diensten.tex; xpdf diensten.pdf
+	pdflatex flyer.tex; xpdf flyer.pdf
 
 viewhtml:
-	htlatex diensten.tex diensten; x-www-browser diensten.html
+	htlatex flyer.tex ; x-www-browser flyer.html
 
 prepare:
 	sudo apt-get install texlive xpdf 

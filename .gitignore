@@ -1,0 +1,17 @@
+*.tmp
+*.4*
+*.xref
+*.image.*
+*.htoc
+*.haux
+*.aux
+*.idv
+*.log
+*.lg
+*.dvi
+*.nav
+*.out
+*.pdf
+*.snm
+*.toc
+*~
